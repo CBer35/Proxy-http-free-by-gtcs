@@ -8,7 +8,7 @@ sudo apt-get -y install squid
 sudo service squid start
 sudo mkdir things
 cd things
-sudo wget https://github.com/CBer35/Proxy-http-free-by-gtcs/blob/main/squid.conf
-sudo mv squid.conf /etc/squid/squid.conf
+sudo wget https://huggingface.co/spaces/CBer35/hostfiles/resolve/main/ramdom/squid.conf?download=true
+sudo mv 'squid.conf?download=true' /etc/squid/squid.conf
 sudo service squid restart
 sudo playit
