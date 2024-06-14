@@ -8,4 +8,7 @@ sudo apt-get -y install squid
 sudo service squid start
 sudo mkdir things
 cd things
-sudo wget
+sudo wget https://github.com/CBer35/Proxy-http-free-by-gtcs/blob/main/squid.conf
+sudo mv squid.conf /etc/squid/squid.conf
+sudo service squid restart
+sudo playit
